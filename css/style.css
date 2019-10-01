@@ -1,0 +1,86 @@
+body {
+    line-height: 1.5;
+    margin:auto;
+    padding:0;
+    background-color: #dddddd;
+    font-style: "Georgia", Times, Serif; 
+    color: #333333;
+    padding-bottom:50px;
+    background-image: url("\images\crate.jpg")
+}
+h3 {
+    text-align:center;
+    font-size: 50px;
+    padding:0;
+    margin:0;
+}
+.container { 
+  width: 70%;
+    margin: auto;
+    background-color: #eee;
+    padding-top:50px;
+}
+#biotext{
+    text-align:right; 
+}
+#bio-image{
+    width: 100%;
+    float: left;
+    margin:20px;
+}
+#main-bio {
+    border-style:dotted;
+    padding:10px;
+}
+@media (max-width: 980px){
+    .container { 
+        padding: 30px;
+        width: 80%;
+        margin: auto;
+        background-color: #eee;
+        padding-top:70px;
+    }    
+}
+@media (max-width: 768px){
+    .container {
+        background-color: #eee;
+        width:95%;
+        margin:auto;
+        padding-top:50px;
+    }
+    body{
+        padding-bottom:50px;
+    }
+}
+@media(max-width: 640px){
+    .container{
+        background-color: #eee;
+        margin-top:10px;
+        padding:15px;
+        top:0px;
+    }
+    #bio-image{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        align-content:center;
+    }
+    #bio-text {
+        text-align:center;
+    }
+    h3{
+        font-size:35px;
+    }
+    body{
+        margin-bottom:20px;
+    }
+    .footer{
+        position:none;
+        background-color: #333333;
+        color:#eee;
+        text-align:center;
+        bottom:0px;
+        width:100%;
+        padding-top:0px;
+    }
+}
