@@ -44,14 +44,18 @@
             <div class="row">
                 <div class="col-lg-5 col-md-4 col-sm-8 boxes">
                     <div class="img-container">
+
                         <img class="img-fluid" src="images\rpg.jpg" alt="RPG Game">
                         <div class="lnkboxs">RPG Game</div>
+
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-4 col-sm-8 boxes">
                     <div class="img-container">
-                        <img class="img-fluid" src="images\hangman.jpg" alt="Hangman Game">
-                        <div class="lnkboxs">Hangman Game</div>
+                        <a href="https://gomez1ever1.github.io/Psychic-Game/">
+                            <img class="img-fluid" src="images\hangman.jpg" alt="Hangman Game">
+                            <div class="lnkboxs">Hangman Game</div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-4 col-sm-8 boxes">
@@ -86,6 +90,12 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+<script type="text/javascript">
+    function buttonClick() {
+        $('#my_link').bind("click", function () { window.location.href = 'http://www.google.com/'; });
+        $('#my_link').trigger('click');
+    }
+</script>
 <footer class="py-4 bg-dark text-white">
     <div class="container text-center" class="footer">
         <p>Last modified September 16</p>
